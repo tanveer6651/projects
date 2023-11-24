@@ -1,5 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
 }
 
 h1{
@@ -17,5 +18,16 @@ h1{
 }
 
 .half-width img{
-    width: 100%;
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 0%;
+
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+
+}
+section{
+    height: 500px;
 }

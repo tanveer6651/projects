@@ -84,16 +84,40 @@ h1{
     width: 1%;
 }
 
-.cont{
-    display:inline-flex
+.photo-album{
+    background-color: rgba(211, 235, 235, 0.5);
+    display: inline-flex;
+    flex-wrap: wrap;
+}
 
-    
+.photo-frame{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    padding: 70px;
 }
-.box {
-    
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 153, 0);
-    
-    margin: 5px;
+
+.photo-frame .photo img{
+    width: 100%;
+
 }
+.photo-details{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 150px;
+    margin-left: 0px;
+    display: none;
+
+}
+.photo-frame:hover .photo-details{
+    display: block;
+    background-color: rgba(245, 231, 231, 0.5)
+}
+
+.photo-frame:hover .photo-details h3{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
